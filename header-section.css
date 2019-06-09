@@ -1,0 +1,155 @@
+#header {
+    position: fixed;
+    z-index:2;
+}
+
+.social-bar{
+    width:100vw;
+    height:4vh;
+    max-height:4vh;
+    background:#222222;
+    max-width:100%;
+    margin:0 auto;
+}
+
+.social-bar-container{
+    width:80vw;
+    max-width:100%;
+    height:4vh;
+    max-height:4vh;
+    background:#222222;
+    color: #a6a6a6;
+    margin:0 auto;
+    text-align:right;
+}
+
+.social-icons {
+    float:right;
+}
+
+.social-bar-icons {
+    display:inline-block;
+    height:100%;
+    float:right;
+}
+
+.social-icons{
+height:100%;
+display:inline-block;
+margin: 0 auto;
+font-size: 2.2vh;
+}
+
+.phone-number {
+float:right;
+margin: 0 auto;
+position:relative;
+top:50%;
+transform: translateY(-50%);
+font-size: 2.2vh;
+padding-left: 2.2vh;
+} 
+
+.address {
+float:right;
+margin: 0 auto;
+position:relative;
+top:50%;
+transform: translateY(-50%);
+font-size: 2.2vh;
+padding-left: 2.2vh;
+}
+
+.fab {
+position:relative;
+top:50%;
+transform: translateY(-50%);
+padding-left: 2vh; 
+}
+
+a{
+    text-decoration:none;
+}
+
+.social-icons a{
+    color: #a6a6a6;
+    }
+
+.menu-bar {
+    width:100vw;
+    max-width:100%;
+    height:12vh;
+    max-height:12vh;
+    background:#222222;
+    margin:0 auto;
+}
+    
+    .menu-bar-container {
+        width:80vw;
+        height:12vh;
+        max-height:12vh;
+        background:#222222;
+        margin:0 auto;
+        overflow:hidden;
+    }
+
+.logo {
+    height: 6vh;
+    width: 35vh; 
+    float: left;
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.logo img{
+    height: 6vh;
+    width: 35vh; 
+}
+
+/* .nav {
+    height: 8vh;
+    width:70vh; 
+    float: right;
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.nav-links{
+    display:flex;
+    float:right;
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.nav a{
+    text-decoration:none;
+    font-size: 2.5vh;
+    color: #a6a6a6;
+    padding-left: 2.5vh;
+} */
+
+.menu-bar ul {
+    box-sizing:border-box;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float:right;
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+  }
+  
+  .menu-bar li {
+    float:left;
+  }
+
+  .menu-bar li a {
+    display: block;
+    padding-left: 2.5vh;
+    text-decoration:none;
+    color: #a6a6a6;
+    font-size:2.5vh;
+  }

@@ -1,0 +1,30 @@
+#description-section {
+    height: 40vh;
+    background:#222222;
+    width:100%;
+}
+
+.description-section-container {
+    height: 40%;
+    width: 80%;
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+}
+
+.description-section-container .content-header {
+    width:100%;
+    font-size:5.5vh;
+    color:white;
+}
+.description-section-container .content-paragraph {
+    padding-top: 1vh;
+    width:100%;
+    font-size:3.5vh;
+    color:white;
+}
+
+.italic {
+    font-style:italic;
+}

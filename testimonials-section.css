@@ -1,0 +1,128 @@
+#testimonials-section {
+height:100vh;
+width:100%;
+background-image: url(https://i.postimg.cc/6qDpFpXC/testimonials-background.jpg);
+background-size: cover;
+background-repeat: no repeat;
+background-attachment: fixed;
+}
+
+.testimonials-section-container {
+    height:75%;
+    width:80%;
+    margin:0 auto; 
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);  
+}
+
+.testimonials-section-container .first-column {
+    width:47%;
+    height:100%;
+    float:left;
+}
+
+.testimonials-section-container .first-column .first-row {
+    height: 50%;
+    width: 100%;
+}
+
+.testimonials-section-container .first-column .second-row {
+    height: 50%;
+    width: 100%;
+}
+
+.testimonials-section-container .second-column {
+    width:47%;
+    height:100%;
+    float:right;
+}
+
+ .testimonials-section-container .second-column .third-row{
+    height: 50%;
+    width: 100%;
+}
+
+.testimonials-section-container .second-column .fourth-row{
+    height: 50%;
+    width: 100%;
+}
+
+.left-top-container .first-column-inner {
+    height:100%;
+    width:30%;
+    display:flex;
+    float:left;
+    justify-content: center;
+}
+
+.left-top-container .second-column-inner {
+    height:100%;
+    width:70%;
+    display:inline-block;
+}
+
+.left-top-container {
+    height:80%;
+    width:100%;
+    background:white;
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+    margin:0 auto;
+}
+
+.first-column-inner img {
+    width:auto;
+    height:45%;
+    padding-top:2vh;
+}
+
+.quote-circle-wrapper {
+    height:10%;
+    width:100%;
+}
+
+.quote-circle{
+    margin:0 auto;
+    text-align:center;
+    height: 4vh;
+    border: solid grey .3vh;
+    border-radius: 50%;
+    height: 4.5vh;
+    width: 4.5vh;
+    background:white;
+    top:50%;
+    transform: translateY(-50%);
+    margin:0 auto;
+}
+
+.quote-circle-text{
+    font-size: 6.5vh;
+    height: 4.5vh;
+    width: 4.5vh;
+    padding-top:.6vh;
+    color:grey;
+}
+
+.second-column-inner .text1{
+height:50%;
+width:90%;
+font-size: 2.2vh;
+padding-top: 1.5vh;
+line-height: 1.25em;
+}
+
+.second-column-inner .text2{
+height:40%;
+width:100%;
+line-height: 1.25em;
+font-size: 2.1vh;
+}
+
+.second-column-inner .text2 a{
+color:orange;
+}
+
+
+

@@ -1,0 +1,154 @@
+#footer-section{
+    height:65vh;
+    background:#222222;
+}
+
+#footer-section #top-row {
+    height:87%;
+    width:100%;
+}
+
+#first-col-container {
+    width:90%;
+    margin: 0 auto;
+}
+
+#footer-section #top-row #first-col{
+    width:25%;
+    height:100%;
+    float:left;
+    text-align:left;
+    box-sizing:border-box;
+    padding:10vh 5vh 0 0;
+}
+
+#first-col h2 {
+    font-size:2.8vh;
+    color:#CAA064;
+    padding-bottom:2vh;
+}
+
+#first-col {
+    font-size:2.3vh;
+    color: white;
+    line-height:1.4;
+}
+
+#footer-section #top-row #second-col{
+    width:25%;
+    height:100%;
+    float:left;
+    text-align:left;
+    box-sizing:border-box;
+    padding:10vh 5vh 0 0;
+}
+
+#footer-section #top-row #second-col a{
+    color:white;
+}
+
+#footer-section #top-row #second-col a:hover{
+    color:#CAA064;
+}
+
+#footer-section #top-row #second-col h2{
+    font-size:2.8vh;
+    color:#CAA064;
+    padding-bottom:2vh;
+}
+
+#footer-section #top-row #second-col ul {
+    list-style: none; /* Remove default bullets */
+    padding-left:2.4vh;
+  }
+  
+#footer-section #top-row #second-col ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    line-height: 2;
+    color: #CAA064; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */ 
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+#footer-section #top-row #third-col{
+    width:25%;
+    height:100%;
+    float:left;
+    text-align:left;
+    box-sizing:border-box;
+    padding:10vh 5vh 0 0;
+    color:white;
+    line-height:1.4;
+
+}
+
+#footer-section #top-row #third-col h2{
+    font-size:2.8vh;
+    color:#CAA064;
+    padding-bottom:2vh;
+}
+
+#footer-section #top-row #fourth-col{
+    width:25%;
+    height:100%;
+    float:left;
+    text-align:left;
+    box-sizing:border-box;
+    padding:10vh 5vh 0 0;
+    color:white;
+    line-height:1.4;
+}
+
+#footer-section #top-row #fourth-col h2{
+    font-size:2.8vh;
+    color:#CAA064;
+    padding-bottom:2vh;
+}
+
+#footer-section #top-row #fourth-col img{
+    cursor:pointer;
+}
+
+#bottom-row {
+    height:13%;
+    width:100%;
+    background:#171717;
+}
+
+#bottom-row-container{
+    width:90%;
+    background:#171717;
+    margin: 0 auto;
+    height:100%;
+}
+
+#bottom-row #copyright-container {
+    float:left;
+    color:#666666;
+    font-size:2.5vh;
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+#bottom-row #footer-social-icons {
+    float:right;
+    height:100%;
+    box-sizing:border-box;
+}
+
+#bottom-row #footer-social-fab {      
+position:relative; 
+top:50%;
+transform: translateY(-50%);
+}
+
+#bottom-row #footer-social-icons a{
+    text-decoration:none;
+    color:#666666;
+    font-size:4vh;
+    margin-left:2vh;
+}
+

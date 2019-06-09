@@ -1,0 +1,165 @@
+/*
+Theme Name: Restaurant Theme
+Theme URI: https://github.com/burnsvaughan
+Author: Burns Vaughan
+Author URI: https://burnsvaughan.com
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
+Text Domain: twentysixteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Normalize
+ * 2.0 - Genericons
+ * 3.0 - Typography
+ * 4.0 - Elements
+ * 5.0 - Forms
+ * 6.0 - Navigation
+ *   6.1 - Links
+ *   6.2 - Menus
+ * 7.0 - Accessibility
+ * 8.0 - Alignments
+ * 9.0 - Clearings
+ * 10.0 - Widgets
+ * 11.0 - Content
+ *    11.1 - Header
+ *    11.2 - Posts and pages
+ *    11.3 - Post Formats
+ *    11.4 - Comments
+ *    11.5 - Sidebar
+ *    11.6 - Footer
+ * 12.0 - Media
+ *    12.1 - Captions
+ *    12.2 - Galleries
+ * 13.0 - Multisite
+ * 14.0 - Media Queries
+ *    14.1 - >= 710px
+ *    14.2 - >= 783px
+ *    14.3 - >= 910px
+ *    14.4 - >= 985px
+ *    14.5 - >= 1200px
+ * 15.0 - Print
+ */
+
+
+/**
+ * 1.0 - Normalize
+ *
+ * Normalizing styles have been helped along thanks to the fine work of
+ * Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+ */
+
+ @import url(header-section.css);
+ @import url(top-section.css);
+ @import url(description-section.css);
+ @import url(offers-section.css);
+ @import url(testimonials-section.css);
+ @import url(location-address-section.css);
+ @import url(top-section.css);
+ @import url(contact-section.css);
+ @import url(footer-section.css);
+ @import url(about.css);
+ 
+ 
+ /* start css reset  */
+ 
+ html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed,
+ figure, figcaption, footer, header, hgroup,
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video {
+	 margin: 0;
+	 padding: 0;
+	 border: 0;
+	 font-size: 100%;
+	 font: inherit;
+	 vertical-align: baseline;
+	   font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
+ 
+ }
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure,
+ footer, header, hgroup, menu, nav, section {
+	 display: block;
+ }
+ body {
+	 line-height: 1;
+ }
+ ol, ul {
+	 list-style: none;
+ }
+ blockquote, q {
+	 quotes: none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+	 content: '';
+	 content: none;
+ }
+ table {
+	 border-collapse: collapse;
+	 border-spacing: 0;
+ }
+ 
+ /* end css reset  */
+
+ #main {
+	 height:auto;
+	 width:100%;
+	 padding-top:20vh;
+	 padding-bottom:5vh;
+ }
+
+ p.cart-empty {
+	 padding-top:10vh;
+	 color:white;
+	 overflow:hidden;
+ }
+
+ .woocommerce .products ul, .woocommerce ul.products {
+	 width:70%;
+	 margin: 0 auto;
+	 padding-top:10vh;
+ }
+
+ #product-27, #product-32, #product-29 {
+	 width:30vw;
+	 padding-top:5vh;
+	 margin: 0 auto;
+ }
+
+ .product_title, .entry-title {
+	padding:5vh 0;
+	text-align:center;
+	font-size:5vh;
+ }
+
+ .woocommerce-product-gallery__wrapper {
+	 text-align:center;
+ }
+
+ .product-page-title {
+	text-align:center;
+	font-size:7vh;
+	padding-top:4vh;
+ }
+
+ .product-page-title-h2 {
+	text-align:center;
+	font-size:4vh;
+	padding-top:4vh;
+ }
